@@ -121,7 +121,7 @@ p {
 * `<strong>`
 * `<mark>`
 * `<rem>`
-* `<highlight>
+* `<highlight>`
 
 5. What does the scoped attribute do?
 ```
