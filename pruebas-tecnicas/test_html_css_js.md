@@ -118,10 +118,10 @@ p {
 
 4. If you have a page of search results and want to highlight the search term, what HTML tag would you use?
 
-* <strong>
-* <mark>
-* <rem>
-* <highlight>
+* `<strong>`
+* `<mark>`
+* `<rem>`
+* `<highlight>
 
 5. What does the scoped attribute do?
 ```
