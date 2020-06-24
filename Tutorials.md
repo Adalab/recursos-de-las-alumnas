@@ -6,6 +6,7 @@
 * EDteam. De todo un poco la verdad : https://www.youtube.com/user/escueladigitalperu/videos
 * Fazt . Desde back a front : https://www.youtube.com/channel/UCX9NJ471o7Wie1DQe94RVIg/videos
 * Ada Lovecode - Didacticode. Javascript: https://www.youtube.com/channel/UCPbFiM-HA4lwJH12JXdXxDA/videos
+* Latte And Code - React: https://www.youtube.com/channel/UCMVky0AEACLisBqM6mXxCng/videos
 
 
 ### EN INGLÉS:
