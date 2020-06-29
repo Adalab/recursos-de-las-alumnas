@@ -4,11 +4,11 @@ Aquí mostramos un glosario de términos que toda Adalaber debería conocer ante
 - a11y
 - **Axios:** Axios es una librería  JavaScript que puede ejecutarse en el navegador y que nos permite hacer sencillas las operaciones como cliente HTTP, por lo que podremos configurar y realizar solicitudes a un servidor y recibiremos respuestas fáciles de procesar.
 Es una alternativa que nos brinda multitud de ventajas:
-- La API es unificada para las solicitudes Ajax.
-- Está optimizado para facilitar el consumo de servicios web, API REST y que devuelvan datos JSON.
-- De fácil utilización y como complemento perfecto para las páginas convencionales.
-- Pesa poco, apenas 13KB minimizado. Menos aún si se envía comprimido al servidor.
-- Compatibilidad con todos los navegadores en sus versiones actuales.
+ La API es unificada para las solicitudes Ajax.
+ Está optimizado para facilitar el consumo de servicios web, API REST y que devuelvan datos JSON.
+ De fácil utilización y como complemento perfecto para las páginas convencionales.
+ Pesa poco, apenas 13KB minimizado. Menos aún si se envía comprimido al servidor.
+ Compatibilidad con todos los navegadores en sus versiones actuales.
 Para trabajar **Axios** utilizaremos el API de las denominadas promesas, las herramientas de los lenguajes de programación que sirven para tramitar fases venideras en el flujo de ejecución de un programa. Es decir, cuando recibamos respuesta del servidor, se llamará a un callback configurada en then y en el momento que arroje un error, se correrá la misma función, pero definida por catch.
 - **Babel:** Para solucionar la problemática de compatibilidad entre estándares y navegadores se utilizan compiladores que convierten el código JavaScript de un estándar a otro estándar más antiguo y, por lo tanto, más compatible. Entonces, Babel es un compilador que convierte un estándar nuevo en una versión totalmente compatible de JavaScript. Así, tenemos la ventaja de poder programar en un estándar nuevo sin renunciar a la compatibilidad entre navegadores.
 - **Base de datos relacional, SQL:** Es un tipo de base de datos que almacena y proporciona acceso a puntos de datos relacionados entre sí siguiendo el modelo relacional. Se basan en la organización de la información en trozos pequeños, que se relacionan entre ellos mediante la relación de identificadores o índices. Habitualmente los datos son almacenados en tablas existiendo la posibilidad de enlazar los datos de una tabla con los de otra.
