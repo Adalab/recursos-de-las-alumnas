@@ -16,10 +16,6 @@ Si ves que un recurso esta un poco viejuno o ya no existe o lo que sea, bórralo
 
 Tú puedes. Pero solo si te atreves y si tienes permisos. Si no tienes permisos pídelos a tu profesora.
 
-## Glosario
-
-Estamos creando un [glosario](./glosario.md) de términos que te viene muy bien conocer. Anímate y añade más términos!!!
-
 ## Recursos de HTML y CSS:
 
 - Aprende flexbox https://flexbox.help/
