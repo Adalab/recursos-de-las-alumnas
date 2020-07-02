@@ -27,7 +27,7 @@ MongoDB es la base de datos no relacional que  más popularidad ha ganado en los
 - BDD (Bea)
 - C Delivery
 - C Deployment
-- ** Callaback** : Un callback es una función que recibe como argumento otra función y la ejecuta. Es importante tener en cuenta que cuando pasamos un callback solo pasamos la definición de la función y no la ejecutamos en el parámetro. Así, la función contenedora elige cuándo ejecutar el callback. Un ejemplo muy común de callback es como función escuchadora de un evento. Los callbacks pueden ayudar a no repetir código y a su mantenimiento, a conseguir funciones más específicas y, en ciertos casos, a mejorar el nivel de abstracción y la lectura del código. Son muy útiles para manejar la asincronía en JS y a través de ellos podemos hacer que una función no tenga conocimiento de la otra función que ejecuta invertiendo así la dependencia a nivel de conocimiento.
+- ** Callback** : Un callback es una función que recibe como argumento otra función y la ejecuta. Es importante tener en cuenta que cuando pasamos un callback solo pasamos la definición de la función y no la ejecutamos en el parámetro. Así, la función contenedora elige cuándo ejecutar el callback. Un ejemplo muy común de callback es como función escuchadora de un evento. Los callbacks pueden ayudar a no repetir código y a su mantenimiento, a conseguir funciones más específicas y, en ciertos casos, a mejorar el nivel de abstracción y la lectura del código. Son muy útiles para manejar la asincronía en JS y a través de ellos podemos hacer que una función no tenga conocimiento de la otra función que ejecuta invertiendo así la dependencia a nivel de conocimiento.
 - Changelogs
 - Code scopes / blocks
 - Continuous Integration
