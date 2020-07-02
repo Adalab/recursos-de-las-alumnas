@@ -27,7 +27,7 @@ MongoDB es la base de datos no relacional que  más popularidad ha ganado en los
 - BDD (Bea)
 - C Delivery
 - C Deployment
-- Callaback (Patricida)
+- ** Callaback** : Un callback es una función que recibe como argumento otra función y la ejecuta. Es importante tener en cuenta que cuando pasamos un callback solo pasamos la definición de la función y no la ejecutamos en el parámetro. Así, la función contenedora elige cuándo ejecutar el callback. Un ejemplo muy común de callback es como función escuchadora de un evento. Los callbacks pueden ayudar a no repetir código y a su mantenimiento, a conseguir funciones más específicas y, en ciertos casos, a mejorar el nivel de abstracción y la lectura del código. Son muy útiles para manejar la asincronía en JS y a través de ellos podemos hacer que una función no tenga conocimiento de la otra función que ejecuta invertiendo así la dependencia a nivel de conocimiento.
 - Changelogs
 - Code scopes / blocks
 - Continuous Integration
@@ -36,7 +36,7 @@ MongoDB es la base de datos no relacional que  más popularidad ha ganado en los
 con el fin de entregarlo en la fecha prevista  y te comprometes a refactorizarlo en un futuro. Cuando este problema no se refactoriza
 porque surjen otros o por falta de tiempo y se queda como está se produce deuda técnica. Post sobre más información de deuda técnica : https://www.federico-toledo.com/deuda-tecnica/
 - **DevOps:** DevOps es una metodología de desarrollo software basada en la integración entre desarrolladores y administradores de sistemas, que permite que los desarrolladores puedan enfocarse sólo en desarrollar y puedan desplegar su código en segundos. (para ampliar más ver [este artículo](https://www.paradigmadigital.com/techbiz/que-es-devops-y-sobre-todo-que-no-es-devops/)).
-- **Docker:** Es un programa de código abierto que permite que una aplicación Linux y sus dependencias se empaqueten como un contenedor usando estos como máquinas virtuales permitiendo que las aplicaciones se ejecuten con total seguridad pero, a diferencia de las máquinas virtuales, son extremadamente más livianos (significativamente más pequeños) y modulares(capacidad de tomar una parte de una aplicación, para actualizarla o repararla, sin necesidad de tomar la aplicación completa) otorgándole mayor independencia.(Patricida)
+- **Docker:** Es un programa de código abierto que permite que una aplicación Linux y sus dependencias se empaqueten como un contenedor usando estos como máquinas virtuales permitiendo que las aplicaciones se ejecuten con total seguridad pero, a diferencia de las máquinas virtuales, son extremadamente más livianos (significativamente más pequeños) y modulares(capacidad de tomar una parte de una aplicación, para actualizarla o repararla, sin necesidad de tomar la aplicación completa) otorgándole mayor independencia.
 - **End to end test:** Tipo de testeo del proyecto que consiste en probar todo el flujo del software desde el punto de vista del usuario final. Se realiza desde la interfaz de usuario y no desde el código y está enfocado en detectar posibles problemas que pudieran encontrar nuestros usuarios en su interacción con el flujo general del programa.
 - Firebase (Bea)
 - FP (Programación Funcional)
