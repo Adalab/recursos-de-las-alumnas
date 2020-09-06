@@ -27,7 +27,7 @@ MongoDB es la base de datos no relacional que  más popularidad ha ganado en los
 - BDD (Bea)
 - C Delivery
 - C Deployment
-- ** Callback** : Un callback es una función que recibe como argumento otra función y la ejecuta. Es importante tener en cuenta que cuando pasamos un callback solo pasamos la definición de la función y no la ejecutamos en el parámetro. Así, la función contenedora elige cuándo ejecutar el callback. Un ejemplo muy común de callback es como función escuchadora de un evento. Los callbacks pueden ayudar a no repetir código y a su mantenimiento, a conseguir funciones más específicas y, en ciertos casos, a mejorar el nivel de abstracción y la lectura del código. Son muy útiles para manejar la asincronía en JS y a través de ellos podemos hacer que una función no tenga conocimiento de la otra función que ejecuta invertiendo así la dependencia a nivel de conocimiento.
+- **Callback:** Un callback es una función que recibe como argumento otra función y la ejecuta. Es importante tener en cuenta que cuando pasamos un callback solo pasamos la definición de la función y no la ejecutamos en el parámetro. Así, la función contenedora elige cuándo ejecutar el callback. Un ejemplo muy común de callback es como función escuchadora de un evento. Los callbacks pueden ayudar a no repetir código y a su mantenimiento, a conseguir funciones más específicas y, en ciertos casos, a mejorar el nivel de abstracción y la lectura del código. Son muy útiles para manejar la asincronía en JS y a través de ellos podemos hacer que una función no tenga conocimiento de la otra función que ejecuta invertiendo así la dependencia a nivel de conocimiento.
 - Changelogs
 - Code scopes / blocks
 - Continuous Integration
@@ -61,15 +61,19 @@ porque surjen otros o por falta de tiempo y se queda como está se produce deuda
 - React - Hooks
 - React - Pure components
 - Release
-- **Redux:** Redux es un contenedor predecible del estado de aplicaciones JavaScript. Te ayuda a escribir aplicaciones que se comportan de manera consistente, corren en distintos ambientes (cliente, servidor y nativo), y son fáciles de probar. Además de eso, provee una gran experiencia de desarrollo, gracias a edición en vivo combinado con un depurador sobre una línea de tiempo. Puedes usar Redux combinado con React, o cual cualquier otra librería de vistas. Es muy pequeño (2kB) y no tiene dependencias.
-Todo el estado de tu aplicación esta almacenado en un único árbol dentro de un único store. La única forma de cambiar el árbol de estado es emitiendo una acción (action), un objeto describiendo qué ocurrió.
-Para especificar cómo las acciones transforman el árbol de estado, usas reducers puros.
-En vez de modificar el estado directamente, especificas las modificaciones que quieres que ocurran con objetos planos llamados acciones. Entonces escribes una función especial llamada reducer que decide cómo cada acción transforma el estado de la aplicación.
+- **Redux:** Librería JavaScript para manejar la información de nuestra APP. Ayuda a escribir aplicaciones que se comportan de manera consistente, corren en distintos ambientes (cliente, servidor y nativo), y son fáciles de probar. Puedes usar Redux combinado con React, o cual cualquier otra librería de vistas. Es muy pequeño (2kB) y no tiene dependencias.
+Todos los datos de la APP se encuentran en una estructura previamente definida, se almacenan en un único lugar llamado STORE. Este Store no se manipula directamente, sino que son las interacciones del usuario las que disparan acciones. El STATE es el valor actual de la información de la aplicación y, a través del REDUCER creamos un nuevo estado, resultante de la combinación del estado anterior y una acción realizada por el REDUCER. 
 ¡Eso es todo! 
+
 Enlaces: 
+Curso del creador de Redux: https://egghead.io/courses/getting-started-with-redux
 https://dev.to/bouhm/react-redux-flow-terminologies-and-example-104b 
 https://es.redux.js.org/
-- Redux Saga
+
+- **Redux-saga:**  librería (middleware) para gestionar los side effects de Redux (cuando se realiza una acción, a veces puede tener side effects, como por ejemplo conectar con la API), haciendo que estos sean fáciles de administrar, más eficientes de ejecutar, fáciles de testear y mucho más eficientes a la hora de manejar errores.
+Documentación: https://redux-saga.js.org/
+Trilogía de vídeos para entender redux-saga:- Iterators & iterables → https://www.youtube.com/watch?v=3O8YE5xsbXI - Generators → https://www.youtube.com/watch?v=wQtwVhwp-So - Redux-sagas → https://www.youtube.com/watch?v=FVP8fpFDarI
+  
 - Server side rendering
 - **Snippets:** Fragmentos de código que suelen solucionar un problema que aparece de manera ocasional. Esos fragmentos se suelen anotar 
 para usarlo en futuras ocasiones.
