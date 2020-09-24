@@ -16,6 +16,14 @@ Si ves que un recurso esta un poco viejuno o ya no existe o lo que sea, bórralo
 
 Tú puedes. Pero solo si te atreves y si tienes permisos. Si no tienes permisos pídelos a tu profesora.
 
+## Recursos:
+
+- [Coding challenge platforms](./coding_challenge_platforms.md)
+- [Glosario de términos técnicos](./glosario.md)
+- [Podcasts](./podcast.md)
+- [Preguntas de entrevistas](./preguntas_entrevistas.md)
+- [Tutoriales](./tutorials.md)
+
 ## Recursos de HTML y CSS:
 
 - Aprende flexbox https://flexbox.help/
